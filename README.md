@@ -1,1 +1,3 @@
 # MyCodeWars
+
+CodeWars exercises/solutions
