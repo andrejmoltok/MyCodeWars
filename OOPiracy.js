@@ -4,7 +4,7 @@ function Ship(draft,crew) {
 }
    
 Ship.prototype.isWorthIt = function() {
-    return (this.draft - (this.crew * 1.5)) > 20 ? true : false;
+    return (this.draft - (this.crew * 1.5)) > 20;
 }
 
 let aWorthyShip = new Ship(100,20);
