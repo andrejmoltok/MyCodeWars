@@ -8,4 +8,4 @@ function solution(str) {
     return str.match(/.{1,2}/g);
 }
 
-console.log(solution('abcdefg'));
+console.log(solution('abcdefghi'));

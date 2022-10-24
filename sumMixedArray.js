@@ -18,3 +18,4 @@ function sumMix(x){
   }
 
   console.log(sumMix([9,3,'7','3']));
+  console.log(sumMix([5,'5','5',5]));
