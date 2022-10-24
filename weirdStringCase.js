@@ -34,11 +34,3 @@ function solution(string) {
 console.log(solution('This'));
 console.log(solution('is'));
 console.log(solution('This is a test'));
-
-// for (let i = 0; i < 5; i += 1){
-//     if (i%2 == 0) {
-//         console.log(i + ' % 2 = ' + i%2);
-//     } else {
-//         console.log(i + ' % 2 = ' + i%2);
-//     }
-// }
