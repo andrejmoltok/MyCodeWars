@@ -4,6 +4,7 @@ function multiples(integer, limit){
         result.push(i*integer);
     }
     return result;
+    //return [...Array(Math.floor(limit/integer)).fill(1)].map((v,i) => integer*(i+1));
 }
 
 console.log(multiples(5,25));
