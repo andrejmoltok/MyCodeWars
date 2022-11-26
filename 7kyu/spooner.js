@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56b8903933dbe5831e000c76
+
 function spoonerize(words) {
     let temp = words.split(' ')[0].charAt(0);
     let out = [];

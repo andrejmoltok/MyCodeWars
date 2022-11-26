@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56bcaedfcf6b7f2125001118
+
 function htmlspecialchars(formData) {
     let output = "";
     for (let i = 0; i < formData.length; i++) {

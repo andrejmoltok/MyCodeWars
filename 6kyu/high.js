@@ -31,7 +31,7 @@ function high(entry){
     entry.split(' ').reduce(function(p,v,i) {
     let tmp = v.split('').reduce((t,e) => t+=e.charCodeAt(0), 0);
     p = (p[1] >=  tmp? p: [i, tmp]);
-    console.log(p,v,i);
+    //console.log(p,v,i);
     return p}, [0,0])
     [0]];
 }

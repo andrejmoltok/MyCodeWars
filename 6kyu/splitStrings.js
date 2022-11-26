@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
+
 function solution(str) {
     const len = str.length;
     if (len % 2 !== 0) {

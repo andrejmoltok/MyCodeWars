@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56582133c932d8239900002e
+
 function mostFrequentItemCount(collection) {
     if (collection.length == 0) return 0;
     let myObj = collection.reduce(function(p,v) {
