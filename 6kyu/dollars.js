@@ -2,7 +2,7 @@
 
 function money_value(s) { 
     let inNumberFormat = parseFloat(s.replace(/\s*\$\s*|,/g, ''));
-    console.log(inNumberFormat);
+    //console.log(inNumberFormat);
     return isNaN(inNumberFormat) ? (0).toPrecision(2) : inNumberFormat;
 }
 
